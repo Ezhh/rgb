@@ -179,6 +179,6 @@ for i in ipairs(rgb_list) do
 		description = "RGB"..name,
 		tiles = {"rgb_base.png^[colorize:#"..rgbval},
 		is_ground_content = true,
-		groups = {choppy=1},
+		groups = {cracky=3},
 	})
 end
